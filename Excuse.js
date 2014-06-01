@@ -45,7 +45,7 @@
   var times = _.keys(excuses);
 
   _.each(times, function(time) {
-    timepicker.append('<option value="' + time + '">' + time + '</option>')
+    timepicker.append('<option value="' + time + '">' + time + '</option>');
   });  
 
 $( "#timepicker" ).on('change', function() {
