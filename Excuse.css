@@ -1,20 +1,24 @@
 body{
 	margin: 0;
-	background-color: #3D4149;
-	color: white;
+	background-color: #98E0E2;
+	color: #000;
 }
 
 #mainHeader{
-	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-	font-size: 95pt;
+    margin-top: 120px;
+	font-family: "Brandon Grotesque";
+    font-weight: 100;
+	font-size: 60px;
 	letter-spacing: 5px;
-	text-align: center;	
-	color: #F1EBEB;
+	text-align: center;
+	color: #000;
 }
 
 #timething{
 	text-align: center;
-	font-size: 65px;
+    font-family: Brandon Grotesque;
+	font-size: 35px;
+    margin-bottom: 100px;
 }
 
 select {
@@ -25,7 +29,6 @@ select {
     height:40px;
     width: 200px;
     font-size: 25px;
-
 }
 
 select:active {
@@ -44,11 +47,14 @@ input, select{
 }
 
 #excuse-text{
-	font-size: 50px;
+    background: #90D6D8;
+    font-family: Brandon Grotesque;
+	font-size: 45px;
 	text-align: center;
-	padding-top: 100px;
 	padding: 40;
-	color: #FFFFFF;
+	color: #17778F;
+    width: 80%;
+    margin: auto;
 }
 
 #timepicker{
