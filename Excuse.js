@@ -46,7 +46,7 @@
 
   _.each(times, function(time) {
     timepicker.append('<option value="' + time + '">' + time + '</option>');
-  });  
+  });
 
 $( "#timepicker" ).on('change', function() {
   var timePicked = $(this).val();
